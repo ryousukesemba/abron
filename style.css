@@ -1,14 +1,17 @@
-.vegas-wrapper{
+#slideshow{
 	width: 100%;
 	height: 0;
 	padding-top: 61.111111%;
+	position: relative;
 }
 .top_filter{
 	width: 100%;
 	height: 0;
 	padding-top: 61.111111%;
 	background-color: rgba(0,0,0,0.6);
-	position: relative;
+	position: absolute;
+	top: 0;
+	right: 0;
 }
 
 .HeaderWrapper{
@@ -26,6 +29,16 @@
 	margin-bottom: 53px;
 	z-index: 10;
 }
+.GlobalNav {
+	padding: 0 36px;
+	box-sizing: border-box;
+}
+.GlobalNav .flex_center{
+	border:none;
+	color: #fff;
+	padding: 0 36px;
+	justify-content: space-between;
+}
 .menu_under_line{
 	width: calc(100% - 72px);
 	height: 2px;
@@ -42,12 +55,15 @@
 	width: 50%;
 	text-align: right;
 }
-.contact{
+.ContactBtn{
 	display: inline-block;
 	width: 250px;
 	height: 58px;
+	line-height: 58px;
+	text-align: center;
 	border: 1px solid #fff;
 	box-sizing: border-box;
+	color: #fff;
 }
 
 .publishing_servise_container{
@@ -57,17 +73,28 @@
 	padding: 0 36px;
 
 }
-.container_title{
+.ContainerTitle{
 	text-align: center;
 	padding-top: 110px;
 	box-sizing: border-box;
 }
-.servise_title{
+.SectionTitle{
 	font-size: 24px;
 	font-weight: bold;
 	margin-top: 18px;
 }
+.SectionTitleSub{
+ 	display: inline-flex;
+    align-items: center;
 
+}
+.SectionTitleSub:before, .SectionTitleSub:after {
+        content: "";
+        width: 100px;
+        height: 1px; /* 線の太さを変えたいときはここを変える */
+        background: #000; /* 線の色を変えたいときはここを変える */
+        margin:1em; /* 文字と線の余白用 なくても良い */
+}
 .p_contents{
 	display: flex;
 	justify-content:center;
@@ -161,6 +188,11 @@
 	box-sizing: border-box;
 	padding: 50px 0 30px 0;
 }
+.ContentBorder{
+	width: 100%;
+	height: 2px;
+	background-color: #000;
+}
 .s_content_text_top{
 	box-sizing: border-box;
 	padding: 30px 0;
@@ -183,7 +215,7 @@
 }
 .NewsWrapper{
 	height: 853px;
-	width: 504px;
+	max-width: 504px;
 	padding: 0 36px;
 	margin-right: 36px;
 	box-sizing: border-box;
@@ -194,6 +226,7 @@
 }
 .NewsContent{
 	padding-top: 55px;
+	font-size: 12px;
 }
 
 .NewsContent:nth-of-type(1){
@@ -203,7 +236,7 @@
 
 .BlogWrapper{
 	height: 853px;
-	width: 792px;
+	max-width: 792px;
 	padding: 0 36px;
 	margin-left: 36px;
 	box-sizing: border-box;
@@ -224,6 +257,10 @@
 	display: flex;
 	border-bottom: 1px solid #000;
 }
+.BlogContent p{
+	font-size: 10px;
+}
+
 .TextBox{
 	width: 100%;
 	box-sizing: border-box;
@@ -265,10 +302,26 @@ footer{
 .FooterLeftTop{
 	width: 100%;
 	height: 157px;
+	position: relative;
 }
 .FooterLeftBottom{
 	width: 100%;
 	height: 223px;
+	position: relative;
+}
+.FooterLeftTopText{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+.FooterLeftTopText h2{
+	font-size: 24px;
+}
+.FooterLeftBottomText{
+	position: absolute;
+	top:50%;
+	left: 0;
+	transform:translateY(-50%);
 }
 .FooterCenter{
 	width: 604px;
@@ -287,8 +340,23 @@ footer{
 .FooterRight{
 	width: 364px;
 	height: 380px;
+	text-align: center;
 	box-sizing: border-box;
 	padding: 0 36px;
+	position: relative;
+}
+.FooterRightContent{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+
+}
+.FooterRight .ContactBtn{
+	border-color: #000;
+	line-height: 58px;
+	color: #000;
+
 }
 
 

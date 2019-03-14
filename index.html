@@ -11,15 +11,15 @@
 <body>
 	<div id = "slideshow">
 		<div class="top_filter relative">
-			<div class = "HeaderWrapper">
+			<header class = "HeaderWrapper">
 				<div class="qqqq">
 					<div class="left"><h1>本郷印刷(株)</h1></div>
 					<div class="right">
-						<a class = "contact" href = "#">問い合わせフォーム</a>
+						<a class = "ContactBtn" href = "#">問い合わせフォーム</a>
 					</div>
 				</div>
-				<div class = "menu">
-					<ul class = "list_inline_block">
+				<nav class = "GlobalNav">
+					<ul class = "flex_center">
 						<li>ホーム</li>
 						<li>出版社のお客様向け</li>
 						<li>個人のお客様向け</li>
@@ -29,15 +29,15 @@
 						<li>ブログ</li>
 					</ul>
 					<div class = "menu_under_line" ></div>
-				</div>
-			</div>
+				</nav>
+			</header>
 		</div>
 	</div>
 
-	<div class = "publishing_servise_container">
-		<div class="container_title">
-			<h2 class = "en_servise_title">Publishing</h2>
-			<h1 class = "servise_title">印刷サービス</h1>
+	<section class = "publishing_servise_container">
+		<div class="ContainerTitle">
+			<h2 class = "SectionTitleSub">Publishing</h2>
+			<h1 class = "SectionTitle">印刷サービス</h1>
 		</div>
 
 
@@ -70,12 +70,12 @@
 			</div>
 		</div>
 
-	</div>
+	</section>
 
-	<div class = "school_servise_container">
-		<div class="container_title">
-			<h2 class = "en_servise_title">Publishing</h2>
-			<h1 class = "servise_title">印刷サービス</h1>
+	<section class = "school_servise_container">
+		<div class="ContainerTitle">
+			<h2 class = "SectionTitleSub">Publishing</h2>
+			<h1 class = "SectionTitle">印刷サービス</h1>
 		</div>
 
 		<div class = "s_contents">
@@ -87,7 +87,7 @@
 					<div class = "s_content_under">
 						<p class = "s_content_title">sssssss</p>
 
-						<div class = "border"></div> 
+						<div class = "ContentBorder"></div> 
 
 						<p class = "s_content_text_top">企画、デザイン、印刷、製本…
 						創業40年の活版時代からのノウハウを生かした
@@ -107,7 +107,7 @@
 					<div class = "s_content_under">
 						<p class = "s_content_title">sssssss</p>
 
-						<div class = "border"></div> 
+						<div class = "ContentBorder"></div> 
 
 						<p class = "s_content_text_top">企画、デザイン、印刷、製本…
 						創業40年の活版時代からのノウハウを生かした
@@ -122,14 +122,14 @@
 			</div>
 				
 		</div>
-	</div>
+	</section>
 
 	<div class = "BlogNewsContainer">
 		<div class = "flex_center">
 			<div class ="NewsWrapper">
-				<div class = "container_title">
-					<h2 class = "en_servise_title">info</h2>
-					<h1 class = "servise_title">お知らせ</h1>
+				<div class = "ContainerTitle">
+					<h2 class = "SectionTitleSub">info</h2>
+					<h1 class = "SectionTitle">お知らせ</h1>
 				</div>
 				<div class = "NewsContents">
 					<p class = "NewsContent">2019/2/20 お知らせのタイトルがここに入ります</p>
@@ -139,9 +139,9 @@
 			</div>
 
 			<div class ="BlogWrapper">
-				<div class = "container_title">
-					<h2 class = "en_servise_title">blog</h2>
-					<h1 class = "servise_title">ブログ</h1>
+				<div class = "ContainerTitle">
+					<h2 class = "SectionTitleSub">blog</h2>
+					<h1 class = "SectionTitle">ブログ</h1>
 				</div>
 				<div class = "BlogContents">
 					<div class = "BlogContent">
@@ -189,12 +189,16 @@
 	<footer>
 		<div class = "FooterLeft">
 			<div class = "FooterLeftTop">
-				<h2>本郷印刷(株)</h2>
-				<p>東京都新宿区西早稲田1−11−5 Y2ビル2F</p>
+				<div class = "FooterLeftTopText">
+					<h2>本郷印刷(株)</h2>
+					<p>東京都新宿区西早稲田1−11−5 Y2ビル2F</p>
+				</div>
 			</div>
 			<div class = "FooterLeftBottom">
-				<p>プライポリシー</p>
-				<p>CopyRight@本郷印刷(株)</p>
+				<div class = "FooterLeftBottomText">
+					<p>プライポリシー</p>
+					<p>CopyRight@本郷印刷(株)</p>
+				</div>
 			</div>
 		</div>
 		<div class = "FooterCenter">
@@ -202,9 +206,12 @@
 			<div class = "FooterCenterBottom"></div>
 		</div>
 		<div class = "FooterRight">
-			<h3>お問い合わせ</h3>
-			<div class = "border"></div>
-			<p>03-6842-5378</p>
+				<h3>お問い合わせ</h3>
+				<div class = "border"></div>
+				<div class = "FooterRightContent">
+					<p>03-6842-5378</p>
+					<a href = "#" class = "ContactBtn">お問い合わせ</a>
+				</div>
 		</div>
 		
 	</footer>
