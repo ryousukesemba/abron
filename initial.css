@@ -1,0 +1,298 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+/* ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+             テキスト中央寄せ
+   ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝ */
+
+.text_center{
+	text-align: center;
+}
+/* ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+             ボーダー
+   ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝ */
+
+.border{
+	width: 100px;
+	height: 2px;
+	background-color: #000;
+	margin: 0 auto;
+}
+
+
+/* ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+             メインイメージ（top/ トップ）
+   ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝ */
+   .main_image{
+   	width: 100%;
+   	height: 800px;
+   	background-image: url('cfxutnm4ern61y11_20160622082931_0740_0500.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+   }
+
+/* ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+             ポジション（相対化）
+   ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝ */
+.relative{
+	position: relative;
+}
+/* ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+             上下中央揃え
+   ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝ */
+
+.up_down_side{
+	position: absolute;
+  top: 50%;
+  right: 50%;
+  transform: translate(50%,-50%);
+
+}
+
+
+/* ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+             要素並列（flex）
+   ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+
+/* 等間隔配置 */ 
+.flex_space{
+	display: flex;
+	justify-content: space-around;
+}
+
+/* 中央寄せ */
+.flex_center{
+	display: flex;
+	justify-content: center;
+}
+
+/* ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+			要素並列（リスト）
+   ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝　*/
+.header{
+ 
+}
+.list_inline_block{
+	text-align: center;
+}
+.list_inline_block li{
+  	 /* 高さ指定 */
+     	 /* 高さ指定 */
+ 	text-align: center;
+ 	list-style: none;
+  padding: 0 20px;
+ 	display: inline-block;
+  color: #fff;
+ 	
+
+ }
+
+/* ==================================
+				斜め（背景）
+   ================================== */
+
+.bg_slanting {
+  position: relative;
+  overflow: hidden;
+  margin: 10% 0;
+  padding: 80px 0;
+}
+
+.bg_slanting:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 120%;
+  height: 70%; /* 高さ指定 */
+  margin: 3% -10% 0;
+  background: #011931;
+  -webkit-transform-origin: left center;
+  -ms-transform-origin: left center;
+  transform-origin: left center;
+  -webkit-transform: rotate(3deg);
+  -ms-transform: rotate(3deg);
+  transform: rotate(3deg);        /*  傾き指定 */ 
+  z-index: -1;
+}
+
+
+
+.slanting_inner {
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 640px;
+  height: 100%;
+  margin: 0 auto;
+  padding: 100px 10px 120px;
+  color: #fff;
+  text-align: center;
+}
+
+/* ==================================
+				パララックス（背景）
+   ================================== */
+.parallax_bg{
+  width: 100%;
+  height: 2000px;				/* 高さ指定 */
+  background-image: url('cfxutnm4ern61y11_20160622082931_0740_0500.jpg');
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #222;
+}
+.parallax_content{
+	background-color: #111;
+	height: 500px; 				/* 高さ指定 */
+	box-sizing: border-box;
+}
+
+/* ==================================
+				
+   ================================== */
+
+
+
+/* ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+	２カラムレイアウト
+　　＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝ */
+
+.column_parent{
+	display: flex;
+}
+
+.column_left{
+	width: 300px;
+	background-color: #222;	 /* 背景色指定 */
+	height: 100px;	         /* 高さ指定 */
+}
+
+.column_right{
+	flex: 1;
+	background-color: #333;		 /* 背景色指定 */
+	height: 100px;	           /* 高さ指定 */
+}
+
+/* ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+    3カラムレイアウト
+　　＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝ */
+
+
+
+
+/* ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+	               画像（中央寄せ）
+   ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝ */
+.image_center{
+   	width: 500px;
+ 		display: block;
+   	margin: 0 auto;
+}
+
+/* ==================================
+          アコーディオン(initial.js 使用)
+   ================================== */
+.accordion{
+    width: 300px;         /* 幅指定 */
+}
+
+.accordion_parent{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: #222;  /* 背景色指定 */
+    color: #fff;
+}
+.accordion_children{
+    display: none;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+    background-color: #888; /* 背景色指定 */
+}
+/* ==================================
+        スライダー用(initial.js 使用)
+   ================================== */
+
+.slider{
+      width: 400px;
+      height: auto;
+      margin: 0 auto;
+}
+.slider img{
+      width: 100%;
+      height: auto;
+}
+
+/* 下のドットの位置変更用 */
+.slick-dots{
+      position: absolute;
+      bottom: -70px;
+}
+
+/* ==================================
+        ページトップへの変遷（initial.js 使用）
+   ================================== */
+
+.toTop{
+    position: fixed;
+    bottom: 20px;     /* 位置指定 */
+    right: 20px;      /* 位置指定 */
+    width: 100px;
+    height: 100px;
+    background-color: #000;
+}
+
+
+

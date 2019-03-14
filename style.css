@@ -1,0 +1,292 @@
+.vegas-wrapper{
+	width: 100%;
+	height: 0;
+	padding-top: 61.111111%;
+}
+.top_filter{
+	width: 100%;
+	height: 0;
+	padding-top: 61.111111%;
+	background-color: rgba(0,0,0,0.6);
+	position: relative;
+}
+
+.HeaderWrapper{
+	position: absolute;
+	top: 0;
+}
+
+.qqqq{
+	width: 100%;
+	box-sizing: border-box;
+	padding: 42px 36px 0 36px;
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 53px;
+	z-index: 10;
+}
+.menu_under_line{
+	width: calc(100% - 72px);
+	height: 2px;
+	background-color: #fff;
+	margin: 30px 36px 0 36px;
+
+}
+.left{
+	width: 50%;
+	font-size: 30px;
+	color: #fff;
+}
+.right{
+	width: 50%;
+	text-align: right;
+}
+.contact{
+	display: inline-block;
+	width: 250px;
+	height: 58px;
+	border: 1px solid #fff;
+	box-sizing: border-box;
+}
+
+.publishing_servise_container{
+	width: 100%;
+	height: auto;
+	box-sizing: border-box;
+	padding: 0 36px;
+
+}
+.container_title{
+	text-align: center;
+	padding-top: 110px;
+	box-sizing: border-box;
+}
+.servise_title{
+	font-size: 24px;
+	font-weight: bold;
+	margin-top: 18px;
+}
+
+.p_contents{
+	display: flex;
+	justify-content:center;
+	padding: 90px 0;
+}
+
+.p_content{
+	width: 400px;
+	height: 500px;
+}
+.p_content:nth-of-type(1){
+	margin-right: 36px;
+}
+.p_content:nth-of-type(2){
+	margin:0 36px;
+}
+.p_content:nth-of-type(3){
+	margin-left: 36px;
+}
+.p_content_text{
+	box-sizing: border-box;
+	font-size: 14px;
+	line-height: 1.5em;
+	padding: 30px 36px 50px 36px;
+}
+.p_content_link{
+	color: #000;
+	max-width: 328px;
+	height: 56px;
+	padding: 20px 45px;
+	border: 1px solid #000;
+	text-align: center;
+	text-decoration:none;
+	display: block;
+	box-sizing: border-box;
+	margin: 0 auto;
+
+}
+
+.box{
+	max-width: 400px;
+	height: 0;
+	max-height: 300px;
+	background-color: #000;
+	background-image: url("images/publishing_image1.png");
+	background-size: cover;
+	padding-top: 75%;
+
+}
+
+.box1{
+	max-width: 648px;
+	height: 0;
+	background-color: #000;
+	background-image: url("images/school_slide1.png");
+	background-size:cover;
+	background-position: center;
+	padding-top: 30.864198%;
+}
+
+.school_servise_container{
+	width: 100%;
+	height: auto;
+	background-color: #eeeeee;
+	box-sizing: border-box;
+	padding: 0 36px;
+}
+
+.s_contents{
+	display: flex;
+	justify-content:center;
+	padding: 90px 0 100px 0;
+}
+.s_content{
+	width: 648px;
+	box-sizing: border-box; 
+}
+.s_content:nth-of-type(1){
+	margin-right:36px;
+}
+.s_content:nth-of-type(2){
+	margin-left:36px;
+}
+.s_content_under{
+	width: 100%;
+	box-sizing: border-box;
+	padding: 0 36px; 
+}
+.s_content_title{
+	font-size: 21px;
+	box-sizing: border-box;
+	padding: 50px 0 30px 0;
+}
+.s_content_text_top{
+	box-sizing: border-box;
+	padding: 30px 0;
+}
+.s_content_text_bottom{
+	box-sizing: border-box;
+	padding: 30px 0 60px 0;
+}
+
+
+.BlogNewsContainer{
+	width: 100%;
+	height: 854px;
+	box-sizing: border-box;
+	padding: 0 36px;
+}
+.flex_center{
+	box-sizing: border-box;
+	border-bottom: 1px solid #fff;
+}
+.NewsWrapper{
+	height: 853px;
+	width: 504px;
+	padding: 0 36px;
+	margin-right: 36px;
+	box-sizing: border-box;
+}
+.NewsContents{
+	width: 100%;
+	margin-top:60px; 
+}
+.NewsContent{
+	padding-top: 55px;
+}
+
+.NewsContent:nth-of-type(1){
+	padding-top: 35px;
+}
+
+
+.BlogWrapper{
+	height: 853px;
+	width: 792px;
+	padding: 0 36px;
+	margin-left: 36px;
+	box-sizing: border-box;
+}
+.BlogContents{
+	width: 100%;
+	margin-top:60px; 
+}
+ .BlogContent img{
+	width: 129px;
+	display: inline-block;
+}
+.BlogContent{
+	width: 100%;
+	height: 150px;
+	padding: 30px 0;
+	box-sizing: border-box;
+	display: flex;
+}
+.TextBox{
+	width: 100%;
+	box-sizing: border-box;
+	padding:0 30px;
+	line-height: 1.5em;
+	position: relative;
+}
+.TextBox .TextRight{
+	position: absolute;
+	bottom: 0;
+	right: 30px;
+}
+.TextRight{
+	text-align: right;
+}
+
+.SectionBorder{
+	width: 100%;
+	height: 1px;
+	background-color: #000;
+	box-sizing: border-box;
+	padding: 0 36px;
+}
+
+footer{
+	width: 100%;
+	height: 380px;
+	padding: 0 36px;
+	box-sizing: border-box;
+	display: flex;
+	justify-content: center;
+}
+.FooterLeft{
+	width: 400px;
+	height: 380px;
+	box-sizing: border-box;
+	padding: 0 36px;
+}
+.FooterLeftTop{
+	width: 100%;
+	height: 157px;
+}
+.FooterLeftBottom{
+	width: 100%;
+	height: 223px;
+}
+.FooterCenter{
+	width: 604px;
+	height: 380px;
+	box-sizing: border-box;
+	padding: 0 36px;
+}
+.FooterCenterTop{
+	width: 100%;
+	height: 157px;
+}
+.FooterCenterBottom{
+	width: 100%;
+	height: 223px;
+}
+.FooterRight{
+	width: 364px;
+	height: 380px;
+	box-sizing: border-box;
+	padding: 0 36px;
+}
+
+
