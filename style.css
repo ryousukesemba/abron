@@ -8,7 +8,7 @@
 	width: 100%;
 	height: 0;
 	padding-top: 61.111111%;
-	background-color: rgba(0,0,0,0.6);
+	background-color: rgba(0,0,0,0.4);
 	position: absolute;
 	top: 0;
 	right: 0;
@@ -19,14 +19,18 @@
 	position: absolute;
 	top: 0;
 }
-.HeaderWrapTitle{
-	font-family: serif;
+.HeaderWrapTitle img{
+	width: 200px;
+	vertical-align: bottom;
+	position: absolute;
+	bottom: 0;
+	left: 0;
 }
 
 .qqqq{
 	width: 100%;
 	box-sizing: border-box;
-	padding: 42px 36px 0 36px;
+	padding: 15px 36px 0 36px;
 	display: flex;
 	justify-content: space-between;
 	margin-bottom: 45px;
@@ -94,6 +98,7 @@
 	width: 50%;
 	font-size: 30px;
 	color: #fff;
+	position: relative;
 }
 .right{
 	width: 50%;
@@ -108,7 +113,7 @@
 	margin-right: 30px;
 	background-image: url("images/header_contact.png");
 	background-size: contain;
-	background-position: center;
+	background-position: bottom;
 	background-repeat: no-repeat;
 }
 
@@ -132,6 +137,7 @@
 	box-sizing: border-box;
 	color: #fff;
 	position: relative;
+	font-weight: bold;
 }
 
 .FooterRight .ContactBtn{
@@ -161,7 +167,7 @@
 }
 .ContainerTitle{
 	text-align: center;
-	padding-top: 110px;
+	padding-top: 100px;
 	box-sizing: border-box;
 }
 .SectionTitle{
@@ -177,7 +183,7 @@
 }
 .SectionTitleSub:before, .SectionTitleSub:after {
         content: "";
-        width: 100px;
+        width: 60px;
         height: 1px; /* 線の太さを変えたいときはここを変える */
         background: #000; /* 線の色を変えたいときはここを変える */
         margin:1em; /* 文字と線の余白用 なくても良い */
@@ -203,7 +209,7 @@
 }
 .p_content_text{
 	box-sizing: border-box;
-	font-size: 14px;
+	font-size: 16px;
 	line-height: 1.5em;
 	padding: 30px 36px 50px 36px;
 }
@@ -227,18 +233,79 @@
 	right: 5px;
 }
 
-
 .box{
 	max-width: 400px;
 	height: 0;
 	max-height: 300px;
-	background-color: #000;
 	background-image: url("images/publishing_image1.png");
 	background-size: cover;
 	padding-top: 75%;
+	position: relative;
 }
 
-.box1{
+.Publish-ImageBoxLeft{
+	max-width: 400px;
+	height: 0;
+	max-height: 300px;
+	background-image: url("images/publishing_image1.png");
+	background-size: cover;
+	padding-top: 75%;
+	position: relative;
+}
+
+.Publish-ImageBoxCenter{
+	max-width: 400px;
+	height: 0;
+	max-height: 300px;
+	background-image: url("images/publishing_image2.png");
+	background-size: cover;
+	padding-top: 75%;
+	position: relative;
+}
+
+.Publish-ImageBoxRight{
+	max-width: 400px;
+	height: 0;
+	max-height: 300px;
+	background-image: url("images/publishing_image3.png");
+	background-size: cover;
+	padding-top: 75%;
+	position: relative;
+}
+.Publish-ImageBoxLeft::before,.Publish-ImageBoxCenter::before,.Publish-ImageBoxRight::before{
+  background-color: rgba(0,0,0,0.4);
+  /* 自由に位置指定 */
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  content: ' ';
+}
+.BoxContents{
+	width: 100%;
+	box-sizing: border-box;
+	padding: 0 30px;
+	text-align: center;
+	color: #fff;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+
+.BoxContents h3{
+	font-size: 18px;
+}
+.BoxContents p{
+	font-size: 16px;
+}
+.BoxContents .border{
+	background-color: #fff;
+	margin: 30px auto;
+}
+
+.ImageBoxLeft{
 	max-width: 648px;
 	height: 0;
 	background-color: #000;
@@ -248,6 +315,15 @@
 	padding-top: 30.864198%;
 }
 
+.ImageBoxRight{
+	max-width: 648px;
+	height: 0;
+	background-color: #000;
+	background-image: url("images/school_image2.png");
+	background-size:cover;
+	background-position: center;
+	padding-top: 30.864198%;
+}
 .school_servise_container{
 	width: 100%;
 	height: auto;
@@ -278,11 +354,12 @@
 }
 .s_content_title{
 	font-size: 21px;
+	font-weight: bold;
 	box-sizing: border-box;
 	padding: 50px 0 30px 0;
 }
 .ContentBorder{
-	width: 100%;
+	width: 70px;
 	height: 2px;
 	background-color: #000;
 }
@@ -422,7 +499,7 @@ footer{
 	justify-content: center;
 }
 .FooterLeft{
-	width: 400px;
+	width: 432px;
 	height: 380px;
 	box-sizing: border-box;
 	padding: 0 36px;
@@ -434,7 +511,7 @@ footer{
 }
 .FooterLeftBottom{
 	width: 100%;
-	height: 223px;
+	height: 123px;
 	position: relative;
 }
 .FooterLeftTopText{
@@ -450,14 +527,13 @@ footer{
 
 .FooterLeftBottomText{
 	position: absolute;
-	top:50%;
+	bottom: 0;
 	left: 0;
-	transform:translateY(-50%);
 }
 
 .FooterCenter{
 	width: 604px;
-	height: 380px;
+	height: 280px;
 	box-sizing: border-box;
 	padding: 0 36px;
 }
@@ -467,39 +543,51 @@ footer{
 }
 .FooterCenterBottom{
 	width: 100%;
-	height: 223px;
+	height: 123px;
 	display: flex;
 }
 .FooterCenterBottomLeft{
 	width: 50%;
-	height:  223px;
-	padding-bottom: 100px;
+	height:  123px;
 	box-sizing: border-box;
 	position: relative;
 }
 
 .FooterCenterBottomRight{
 	width: 50%;
-	height:  223px;
-	padding-bottom: 100px;
+	height:  123px;
 	box-sizing: border-box;
 	position: relative;
 }
 .BottomLeftContent{
 	width: 100%;
-	position: absolute;
-	top: 40%;
-	left: 50%;
-	transform: translate(-50%,-50%);
 	padding-left: 20px;
 	border-left: 2px solid #000; 
+	box-sizing: border-box;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	margin-left: 36px;
 }
-.BottomLeftContent li{
+.BottomRightContent{
+	width: 100%;
+	padding-left: 20px;
+	border-left: 2px solid #000; 
+	box-sizing: border-box;
+	position: absolute;
+	bottom: 22px;
+	left: 0;
+	margin-left: 36px;
+}
+
+
+.BottomLeftContent li,.BottomRightContent li{
 	line-height: 1.5em;
+	font-size: 15px;
 }
 .FooterRight{
 	width: 364px;
-	height: 380px;
+	height: 280px;
 	text-align: center;
 	box-sizing: border-box;
 	padding: 0 36px;
@@ -507,9 +595,9 @@ footer{
 }
 .FooterRightContent{
 	position: absolute;
-	top: 50%;
+	bottom: 0;
 	left: 50%;
-	transform: translate(-50%,-50%);
+	transform: translateX(-50%);
 	margin-top: 25px;
 
 }
@@ -517,6 +605,7 @@ footer{
 	border-color: #000;
 	line-height: 58px;
 	color: #000;
+	font-weight: bold;
 }
 
 .ContactBtn .arrow{
