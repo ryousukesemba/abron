@@ -2,27 +2,61 @@
 <html>
 <head>
 	<title></title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
 	<link rel="stylesheet" type="text/css" href="initial.css">
 	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="style-sp.css">
 	<link rel="stylesheet" href="js/vegas/vegas.min.css">
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+	<link rel="stylesheet" href="js/dist/jquery.fatNav.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+<!-- sp-nav js-->
+	<script type="text/javascript" src="js/dist/jquery.fatNav.min.js"></script>
+
 
 </head>
 <body>
+<div class="fat-nav">
+    <div class="fat-nav__wrapper">
+        <ul>
+            <li><a href = "#">ホーム</a></li>
+			<li><a href = "#">出版社のお客様向け</a></li>
+			<li><a href = "#">個人のお客様向け</a></li>
+			<li><a href = "#">企業・学校のお客様向け</a></li>
+			<li><a href = "#">スクール事業</a></li>
+			<li><a href = "#">企業概要</a></li>
+			<li><a href = "#">ブログ</a></li>
+        </ul>
+    </div>
+</div>
+
+
+
 	<div id = "slideshow">
 		<div class="top_filter relative">
 			<header class = "HeaderWrapper">
 				<div class="qqqq">
 					<div class="left">
-						<div class = "HeaderWrapTitle">
-							<img src="images/main_logo.png" alt = "logo">
-						</div>
+							<img src="images/main_logo.png" alt = "logo" id = "logo">
 					</div>
 					<div class="right">
 						<div class = "HeaderTelNum"></div>
 						<a href = "#" class = "ContactBtn" id = "FooterBtn"><img class = "iconMail" src="images/icon_mail_000.png">お問い合わせフォーム<img class = "arrow" src="images/arrow_000.png"></a>
+
 					</div>
 				</div>
+			
+
+				
+
+
+
+
+
+
+
+
 				<nav class = "GlobalNav">
 					<ul class = "flex_center">
 						<li>ホーム</li>
@@ -44,6 +78,37 @@
 				<div class = "MV_flow">
 				</div>
 			</div>
+
+			<div class = "Sp-HeaderMainVisual">
+				<div class = "Sp-MV_text">
+					<h2>マーケティングに関する企画提案から</br>デザイン制作、印刷、</br>直接エンドユーザー様のお手元へ発送</br>ワンストップサービスで</br>お客様のニーズにお応えします。</h2>
+				</div>
+				<div class = "Sp-MV_flow">
+					<div class = "MvTop"></div>
+					<div class = "MvBottom"></div>
+				</div>
+			</div>
+	</div>
+	<div class = "Sp-ContactWrapper">
+		<div class = "Sp-ContactContents">
+			<div class = "Sp-ContactLeft">
+				<p>お問い合わせは</br>こちらから</p>
+			</div>
+			<div class = "Sp-ContactRight">
+					<div class = "ContactItemRight">
+						<div class = "RightItemContent">
+							<img src="images/telephone.png" alt = "telephone-image">
+							<p>電話</p>
+						</div>
+					</div>
+					<div class = "ContactItemLeft">
+						<div class = "LeftItemContent">
+							<img src="images/icon_mail.png" alt = "telephone-image">
+							<p>フォーム</p>
+						</div>
+					</div>
+			</div>
+		</div>
 	</div>
 
 	<section class = "publishing_servise_container">
@@ -225,9 +290,9 @@
 		<div class = "FooterLeft">
 			<div class = "FooterLeftTop">
 				<div class = "FooterLeftTopText">
-					<h2 class = "FooterLeftTitle">
+					<div class = "FooterLeftTitle">
 						<img src="images/main_logo_000.png" alt = "logo">
-					</h2>
+					</div>
 					<p>東京都新宿区西早稲田1−11−5 Y2ビル2F</p>
 				</div>
 			</div>
@@ -270,12 +335,16 @@
 					<a href = "#" class = "ContactBtn" id = "FooterBtn"><img class = "iconMail" src="images/icon_mail.png">お問い合わせフォーム<img class = "arrow" src="images/arrow.png"></a>
 				</div>
 		</div>
-		
+		<div class = "Sp-Copyright">
+					<p>プライポリシー</p>
+					<p>CopyRight@本郷印刷(株)</p>
+		</div>
 	</footer>
 
 
 	<script type="text/javascript" src="js/initial.js"></script>
 	<script src="js/vegas/vegas.min.js"></script>
+	<script type="text/javascript" src="js/dist/jquery.fatNav.min.js"></script>
 
 	<script>
 		$(function(){
@@ -299,5 +368,12 @@
 		  });
 		});
 </script>
+	<script>
+		$(function() {
+		    $.fatNav();
+		});
+	</script>
+
+
 </body>
 </html>
