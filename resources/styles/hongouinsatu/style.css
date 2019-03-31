@@ -610,6 +610,11 @@ footer{
 	line-height: 1.5em;
 	font-size: 15px;
 }
+
+.BottomLeftContent li a,.BottomRightContent li a{
+	text-decoration: none;
+	color: #000;
+}
 .FooterRight{
 	width: 364px;
 	height: 280px;
