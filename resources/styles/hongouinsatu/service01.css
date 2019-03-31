@@ -1,0 +1,592 @@
+.BigImage{
+	width: 100%;
+	height: 600px;
+	background-image: url("../../../resources/images/hongouinsatu/page01-main-visual.png");
+	background-size: cover;
+}
+.BigImageFilter{
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,0.4);
+}
+.BigImageFilter{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+.BigImageHeadLine{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
+	position: relative;
+	top: 80px;
+
+	color: #fff;
+	font-weight: bold;
+}
+.BigImageTitle{
+	font-size: 36px;
+	padding-bottom: 50px;
+
+}
+
+.BigImageDescription{
+	font-size: 18px;
+	text-align: center;
+	line-height: 1.8em;
+
+}
+
+
+.FeatureSection{
+	width: 100%;
+	height: 786px;
+}
+.FeatureSection__Inner{
+	height: 100%;
+	width: 100%;
+	padding-top: 110px;
+	padding-bottom: 90px;
+}
+
+
+.FeatureSection-HeadLine{
+	text-align: center;
+}
+
+.FeatureSection-HeadLine-MainText{
+	font-size: 26px;
+	font-weight: bold;
+	margin-top: 18px;
+	margin-bottom: 70px;
+}
+.FeatureSection-HeadLine-SubText{
+ 	display: inline-flex;
+    align-items: center;
+    font-size: 12px;
+
+}
+.FeatureSection-HeadLine-SubText:before, .FeatureSection-HeadLine-SubText:after {
+        content: "";
+        width: 60px;
+        height: 1px; /* 線の太さを変えたいときはここを変える */
+        background: #000; /* 線の色を変えたいときはここを変える */
+        margin:1em; /* 文字と線の余白用 なくても良い */
+}
+
+.FeatureSection-Slider{
+	width: 672px;
+	height: 454px;
+	margin-right: auto;
+	margin-left: auto;
+}
+.FeatureSection-Slider-Filter{
+	width: 100%;
+	height: 100%;
+	background-color: rgba(256,256,256,0.8);
+}
+.FeatureSection-Slider-Filter_Inner{
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+
+	padding: 65px 72px;
+}
+.FeatureSection-Slider__InnerText{
+	font-weight: bold;
+}
+.FeatureSection-Slider__InnerText-Icon{
+	margin-right: 15px;
+}
+
+.ServiceSection{
+	height: 1071px;
+	width: 100%;
+	background-color:  #eeeeee;
+}
+
+.ServiceSection__inner{
+	height: 100%;
+	width: 100%;
+	padding-top: 90px;
+	padding-bottom: 98px;
+	padding-right: 36px;
+	padding-left: 36px;
+}
+
+
+.ServiceSection-HeadLine{
+	text-align: center;
+}
+
+.ServiceSection-HeadLine-MainText{
+	font-size: 26px;
+	font-weight: bold;
+	margin-top: 18px;
+	margin-bottom: 95px;
+}
+.ServiceSection-HeadLine-SubText{
+ 	display: inline-flex;
+    align-items: center;
+    font-size: 12px;
+
+}
+.ServiceSection-HeadLine-SubText:before, .ServiceSection-HeadLine-SubText:after {
+        content: "";
+        width: 60px;
+        height: 1px; /* 線の太さを変えたいときはここを変える */
+        background: #000; /* 線の色を変えたいときはここを変える */
+        margin:1em; /* 文字と線の余白用 なくても良い */
+}
+
+
+.ServiceSection-CardGroup{
+	height: 720px;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.ServiceSection-Card{
+	width: 100%;
+	height: 200px;
+	display: flex;
+}
+
+
+.ServiceSection-Card:nth-of-type(1) .ServiceSection-Card-Image{
+	background-image: url("../../../resources/images/hongouinsatu/page01-service-section-01.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.ServiceSection-Card:nth-of-type(2) .ServiceSection-Card-Image{
+	background-image: url("../../../resources/images/hongouinsatu/page01-service-section-02.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.ServiceSection-Card:nth-of-type(3) .ServiceSection-Card-Image{
+	background-image: url("../../../resources/images/hongouinsatu/page01-service-section-03.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+
+.ServiceSection-Card-Image{
+	width: 504px;
+	height:0;
+	padding-top: 14.62%;
+
+	margin-right: 72px;
+}
+.ServiceSection-Card-Description{
+	width: 570px;
+}
+
+.ServiceSection-Card-Description-Title{
+	font-weight: bold;
+	font-size: 22px;
+}
+
+.ServiceSection-Card-Description-Text{
+	font-size: 16px;
+	line-height: 1.5em;
+}
+.ServiceSection-Card-Description-Border{
+	height: 2px;
+	width: 72px;
+	background-color: #000;
+	margin-top: 29px;
+	margin-bottom: 29px;
+}
+.ServiceSection-Card-BlankBox{
+	height: 200px;
+	width: 215px;
+	background-color: transparent;
+}
+
+.PastPublishingSection{
+	height: 690px;
+	width: 100%;
+}
+
+
+.PastPublishingSection__inner{
+	height: 100%;
+	width: 100%;
+	padding-top: 96px;
+	padding-bottom: 88px;
+	padding-right: 36px;
+	padding-left: 36px;
+}
+
+
+.PastPublishingSection-HeadLine{
+	text-align: center;
+}
+
+.PastPublishingSection-HeadLine-MainText{
+	font-size: 26px;
+	font-weight: bold;
+	margin-top: 18px;
+	margin-bottom: 95px;
+}
+.PastPublishingSection-HeadLine-SubText{
+ 	display: inline-flex;
+    align-items: center;
+    font-size: 12px;
+
+}
+.PastPublishingSection-HeadLine-SubText:before, .PastPublishingSection-HeadLine-SubText:after {
+        content: "";
+        width: 60px;
+        height: 1px; /* 線の太さを変えたいときはここを変える */
+        background: #000; /* 線の色を変えたいときはここを変える */
+        margin:1em; /* 文字と線の余白用 なくても良い */
+}
+
+.PastPublishingSection-CardGroup{
+	display: flex;
+	width: auto;
+	margin-bottom: 30px;
+}
+.PastPublishingSection-Card{
+	display: flex;
+	width: 33.333%;
+}
+
+.PastPublishingSection-Card:nth-of-type(1) .PastPublishingSection-Card-Image{
+	background-image: url("../../../resources/images/hongouinsatu/page01-PastPublishingSection-01.png");
+	-webkit-background-size: contain;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+.PastPublishingSection-Card:nth-of-type(2) .PastPublishingSection-Card-Image{
+	background-image: url("../../../resources/images/hongouinsatu/page01-PastPublishingSection-02.png");
+	-webkit-background-size: contain;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+.PastPublishingSection-Card:nth-of-type(3) .PastPublishingSection-Card-Image{
+	background-image: url("../../../resources/images/hongouinsatu/page01-PastPublishingSection-03.png");
+	-webkit-background-size: contain;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+.PastPublishingSection-Card-Image{
+	width: 45.835344%;
+	height: 0;
+	padding-top: 64.9%;
+
+	flex:none;
+	border: 1px solid #eeeeee;
+}
+.PastPublishingSection-Card-Description{
+	width: auto;
+	height: 100%;
+	padding-left: 20px;
+	padding-right:  20px;
+}
+.PastPublishingSection-Card-Description-Title{
+	font-size: 20px;
+	font-weight: bold;
+	padding-bottom: 20px;
+}
+.PastPublishingSection-Card-Description-Border{
+	width: 72px;
+	height: 2px;
+	background-color: #000;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+.PastPublishingSection-Card-Description-author{
+	font-size: 14px;
+}
+.PastPublishingSection-Card-Description-Publisher{
+	font-size: 14px;
+}
+.PastPublishingSection-MoreShowLink{
+	margin-right: 36px;
+	text-align: right;
+	position: relative;
+}
+.PastPublishingSection-MoreShowLinkText{
+	font-size: 14px;
+	color: #000;
+	text-decoration: none;
+	margin-right: 50px;
+}
+.arrow{
+	position: absolute;
+	top: 50%;
+	right: 0;
+	transform: translateY(-50%);
+
+}
+
+
+
+.ContactSection{
+	width: 100%;
+	height: 580px;
+	background-color: #eeeeee;
+}
+
+.ContactSection__inner{
+	height: 100%;
+	width: 100%;
+	padding-top: 96px;
+	padding-bottom: 88px;
+	padding-right: 36px;
+	padding-left: 36px;
+}
+
+
+.ContactSection-HeadLine{
+	text-align: center;
+	margin-bottom: 55px;
+}
+
+.ContactSection-HeadLine-MainText{
+	font-size: 26px;
+	font-weight: bold;
+	margin-top: 18px;
+	margin-bottom: 35px;
+}
+.ContactSection-HeadLine-SubText{
+ 	display: inline-flex;
+    align-items: center;
+    font-size: 12px;
+}
+.ContactSection-HeadLine-SubText:before, .ContactSection-HeadLine-SubText:after {
+        content: "";
+        width: 60px;
+        height: 1px; /* 線の太さを変えたいときはここを変える */
+        background: #000; /* 線の色を変えたいときはここを変える */
+        margin:1em; /* 文字と線の余白用 なくても良い */
+}
+
+.ContactSection-HeadLine-description{
+	font-size: 18px;
+}
+.ContactSection-Card-Group{
+	display: flex;
+	justify-content: center;
+}
+.ContactSection-Card{
+	width: 401px;
+	height: 183px;
+
+
+	background-color: #fff;
+}
+.ContactSection-Card:nth-of-type(1){
+	margin-right: 25px;
+}
+.ContactSection-Card:nth-of-type(2){
+	margin-left: 25px;
+}
+.ContactSection-Card-Inner{
+	height: 100%;
+	padding: 35px 46px;
+}
+.ContactSection-Card-Inner-Text{
+	text-align: center;
+	font-weight: bold;
+}
+.ContactSection-Card-Inner-TelImage{
+	height: 100%;
+	width: 100%;
+
+	background-image: url(../../../resources/images/hongouinsatu/contact_Tel.png);
+	-webkit-background-size: cover;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.ContactSection-Card-Inner-MailImage{
+	height: 100%;
+	width: 100%;
+
+	background-image: url(../../../resources/images/hongouinsatu/contact_form.png);
+	-webkit-background-size: cover;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+
+
+
+
+ 
+@media screen and (max-width: 768px) { 
+	
+	.BigImageHeadLine{
+		position: initial;
+	}
+	.BigImageTitle{
+		font-size: 24px;
+	}
+	.BigImageDescription{
+		font-size: 14px;
+		width: 80%;
+	}
+
+	.FeatureSection{
+		height: auto;
+		width: 90%;
+		margin-right: auto;
+		margin-left: auto;
+	}
+	.FeatureSection-HeadLine-MainText{
+		margin-bottom: 40px;
+	}
+	.FeatureSection__Inner{
+		padding-top: 40px;
+	}
+
+	.FeatureSection-Slider{
+		width: 100%;
+		font-size: 12px;
+	}
+	.FeatureSection-Slider-Filter_Inner{
+		padding-left: 20px;
+		padding-right: 20px;
+
+
+	}
+	.FeatureSection-Slider__InnerText-Icon{
+		margin-right: 10px;
+		width: 18px;
+	}
+
+	.ServiceSection{
+		height: auto;
+	}
+	.ServiceSection__inner{
+		padding-right: 0;
+		padding-left: 0;
+		padding-top: 40px;
+
+		width: 90%;
+		margin: 0 auto;
+	}
+	.ServiceSection-HeadLine-MainText{
+		margin-bottom: 40px;
+	}
+	.ServiceSection-CardGroup{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+
+		height: auto;
+	}
+	.ServiceSection-Card{
+		display: block;
+		height: auto;
+
+	}
+
+
+	.ServiceSection-Card:nth-of-type(1){
+		margin-bottom: 40px;
+	}
+	.ServiceSection-Card:nth-of-type(2){
+		margin-bottom: 40px;
+	}
+	.ServiceSection-Card-Image{
+		margin-right: 0;
+		width: 100%;
+		height: 200px;
+		padding-top: 0;
+		background-position: bottom;
+	}
+	.ServiceSection-Card-Description{
+		width: 100%;
+		margin-top: 30px;
+	}
+	.ServiceSection-Card-Description-Text{
+		font-size: 14px;
+	}
+
+	.ServiceSection-Card-BlankBox{
+		display: none;
+	}
+
+	.PastPublishingSection{
+		height: auto;
+  	}
+  	.PastPublishingSection__inner{
+  		padding-left: 0;
+  		padding-right: 0;
+  		padding-top: 40px;
+  	}
+  	.PastPublishingSection-HeadLine-MainText{
+  		margin-bottom: 40px;
+  	}
+  	.PastPublishingSection-CardGroup{
+  		display: block;
+  	}
+  	.PastPublishingSection-Card{
+  		width: 90%;
+  		margin-right: auto;
+  		margin-left: auto;
+  		margin-bottom: 60px;
+  	}
+  	.PastPublishingSection-Card-Image{
+  		width: 39.9%;
+  		height: 0;
+  		padding-top: 56.5%;
+
+  		margin-right: 0;
+  	}
+  	.PastPublishingSection-Card-Description{
+  		padding-right: 0;
+
+  	}
+
+  	.PastPublishingSection-MoreShowLinkText{
+  		margin-right: 20px;
+  	}
+	
+
+	.ContactSection{
+		height: auto;
+	}
+	.ContactSection__inner{
+		padding-left: 0;
+		padding-right: 0;
+		width: 90%;
+		margin: 0 auto;
+
+		padding-top: 40px;
+	}
+	.ContactSection-Card-Group{
+		display: flex;
+		flex-direction: column;
+		width: 100%;
+		height: auto;
+	}
+	.ContactSection-Card{
+		width: 100%;
+	}
+	.ContactSection-Card:nth-of-type(1){
+		margin-right: 0;
+		margin-bottom: 40px;
+	}
+	.ContactSection-Card:nth-of-type(2){
+		margin-left: 0;
+	}
+
+}
+

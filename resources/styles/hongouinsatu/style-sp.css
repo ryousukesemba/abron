@@ -70,7 +70,7 @@
 		max-width: 400px;
 		height: 90px;
 		margin: 0 auto;
-		background-image: url("images/sp_MVflow_top.png");
+		background-image: url("../../resources/images/hongouinsatu/sp_MVflow_top.png");
 		background-repeat: no-repeat;
 		background-size: contain;
 	}
@@ -78,7 +78,7 @@
 		max-width: 400px;
 		height: 90px;
 		margin: 0 auto;
-		background-image: url("images/sp_MVflow_bottom.png");
+		background-image: url("../../resources/images/hongouinsatu/sp_MVflow_bottom.png");
 		background-repeat: no-repeat;
 		background-size: contain;
 		background-position: right;
@@ -356,8 +356,9 @@ flex-flow: column wrap;
 	 .hamburger{
 		display: block;
 	}
-
-
+	.BlogShowAll{
+		margin-bottom: 100px;
+	}
 
 
 

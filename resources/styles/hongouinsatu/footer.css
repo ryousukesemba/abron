@@ -1,0 +1,279 @@
+.Footer{
+	width: 100%;
+	height: 380px;
+	padding: 0 36px;
+	box-sizing: border-box;
+	display: flex;
+	justify-content: center;
+}
+.Footer__Left{
+	width: 432px;
+	height: 380px;
+	box-sizing: border-box;
+	padding: 0 36px;
+}
+.Footer__Left__Top{
+	width: 100%;
+	height: 157px;
+	position: relative;
+	font-size: 14px;
+}
+
+.Footer__Left__Top__Text{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+.Footer__Left__Top__Logo{
+	font-size: 30px;
+	margin-bottom: 20px;
+	font-family: serif;	
+}
+.Footer__Left__Bottom{
+	width: 100%;
+	height: 123px;
+	position: relative;
+}
+
+
+
+
+.Footer__Left__Bottom__Text{
+	font-size: 12px;
+	line-height: 1.5em;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+
+.Footer__Center{
+	width: 604px;
+	height: 280px;
+	box-sizing: border-box;
+	padding: 0 36px;
+}
+.Footer__Center__Top{
+	width: 100%;
+	height: 192px;
+}
+.Footer__Center__Bottom{
+	width: 100%;
+	height: 123px;
+	display: flex;
+}
+.Footer__Center__Bottom__Left{
+	width: 50%;
+	height:  123px;
+	box-sizing: border-box;
+	position: relative;
+}
+
+.Footer__Center__Bottom__Right{
+	width: 50%;
+	height:  123px;
+	box-sizing: border-box;
+	position: relative;
+}
+.Footer__Center__Bottom__Left-Nav{
+	width: 100%;
+	padding-left: 20px;
+	border-left: 2px solid #000; 
+	box-sizing: border-box;
+	position: absolute;
+	top: 0;
+	left: 0;
+	margin-left: 36px;
+}
+.Footer__Center__Bottom__Right-Nav{
+	width: 100%;
+	padding-left: 20px;
+	border-left: 2px solid #000; 
+	box-sizing: border-box;
+	position: absolute;
+	top:0;
+	left: 0;
+	margin-left: 36px;
+}
+
+
+.Footer__Center__Bottom__Left-Nav-Link,.Footer__Center__Bottom__Right-Nav-Link{
+	line-height: 1.5em;
+	font-size: 15px;
+
+	text-decoration: none;
+	 color: #000;
+}
+.Footer__Right{
+	width: 364px;
+	height: 280px;
+	text-align: center;
+	box-sizing: border-box;
+	padding: 0 36px;
+	position: relative;
+}
+.Footer__Right__Title{
+	font-size: 18px;
+	font-weight: bold;
+	margin-top: 80px;
+	margin-bottom: 30px;
+}
+.Footer__Right__Content{
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	transform: translateX(-50%);
+	margin-top: 25px;
+
+}
+.Footer__Right .ContactBtn{
+	border-color: #000;
+	line-height: 58px;
+	color: #000;
+	font-weight: bold;
+}
+
+.ContactBtn .arrow{
+	position: absolute;
+	top: 50%;
+	right: 2px;
+	transform: translate(-50%,-50%);
+}
+.MailIcon{
+	width: 26px;
+	margin-right: 5px;
+	display: inline;
+	line-height: 58px;
+	vertical-align: middle;
+}
+
+#tel{
+	font-size: 24px;
+	margin-bottom: 5px;
+}
+#detail-text{
+	font-size:12px;
+	margin-bottom: 20px;
+}
+#FooterBtn{
+	font-size: 14px;
+	text-decoration: none;
+}
+.Footer-TelNum{
+	width: 210px;
+	height: 58px;
+	margin:0 auto 20px auto;
+	background-image: url("../../../resources/images/hongouinsatu/footer_contact.png");
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.Sp-Copyright{
+	display: none;
+}
+.hamburger{
+	display: none;
+}
+
+.Sp-accordion{
+	display: none;
+
+	
+}
+.Sp-accordion ul{
+
+	background-color: #fff;
+	width: 100%;
+	height: 200vw;
+	position: absolute;
+	top: 0;
+}
+.SpNavIcon{
+	display: none;
+}
+
+@media screen and (max-width: 768px) { 
+	.Footer{
+	 	display: flex;
+	 	flex-direction: column;
+	 	padding: 0;
+	 	width: 90%;
+	 	height: auto;
+	 	margin: 0 auto;
+	 	
+	 }
+	 .Footer__Left,.Footer_Center,.Footer__Right{
+	 	width: 100%;
+	 	height: auto;
+	 	padding: 0;
+	 	margin-right: 0;
+	 }
+	 .Footer__Right{
+	 	margin-bottom: 40px;
+	 	order: 1;
+		-webkit-order: 1;
+	}
+	 .Footer__Left{
+	 	order: 2;
+		-webkit-order: 2;
+		text-align: center;
+	 }
+	 .Footer__Center{
+	 	margin-bottom: 40px;
+	 	order: 3;
+		-webkit-order: 3;
+		
+		width: 100%;
+		padding-left: 0;
+		padding-right: 0;
+
+	 }
+	 .Footer__Left__Top__Text{
+		position: static;
+	 }
+	 .Footer__Left__Top{
+	 	height: auto;
+	 	margin-top:40px;
+	 	margin-bottom: 40px;
+
+	 }
+	 .Footer__Left__Top__Logo{
+	 	margin-bottom: 0;
+	 }
+	 .Footer__Left__Top__Text-Access{
+		font-size: 10px;
+	 }
+
+	 .Sp-Copyright{
+	 	border-top: 1px solid #c9c9c9;
+	 	display: block;
+	 	order: 4;
+		-webkit-order: 4;
+		font-size: 10px;
+		text-align: center;
+		padding:10px 0 10px 0;
+	 }
+	  .Footer__Left__Bottom,.Footer__Center__Top{
+			display: none;
+	 }
+	 .Footer__Right__Content{
+	 	position: initial;
+	 	transform: none;
+	 }
+	 .Footer__Center__Bottom,.Footer__Center__Bottom__Left,.Footer__Center__Bottom__Right{
+	 	height: auto;
+	 }
+	 .Footer__Center{
+	 	height: 60px;
+	 }
+	 .Footer__Center__Bottom__Left-Nav , .Footer__Center__Bottom__Right-Nav {
+	 	margin-left: 0;
+
+	 	font-size: 10px;
+	 }
+	 .Footer__Center__Bottom__Left-Nav-Link ,.Footer__Center__Bottom__Right-Nav-Link{
+	 	font-size: 10px;
+	 	line-height: 1.5em;
+	 }
+
+}
+
